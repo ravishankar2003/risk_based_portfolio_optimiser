@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/risk_based_portfolio_optimiser',
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+  }
 })
